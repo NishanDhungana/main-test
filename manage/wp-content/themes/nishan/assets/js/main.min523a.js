@@ -1540,9 +1540,8 @@ var GL_Main = (function () {
           (this._address = document.createElement("div")),
           this._address.classList.add("top-address"),
           this._address.classList.add("ja");
-(this._modalTxt.innerHTML =
-  "<div class='c-comm'>下記のメールアドレスよりお問い合わせください</div><div class='c-info en'><a href='mailto:info@nishandhungana.com'>info@nishandhungana.com</a></div><div class='social-icons'><a href='https://www.messenger.com/' target='_blank'><img src='facebook_icon.png' alt='Facebook'></a><a href='YOUR_TWITTER_URL' target='_blank'><img src='twitter_icon.png' alt='Twitter'></a><a href='YOUR_INSTAGRAM_URL' target='_blank'><img src='instagram_icon.png' alt='Instagram'></a></div><span>Nishan Dhuungana<br class='sp-br'> <br>2022 © Nishan Dhungana. Design by Nd Developers<br>");
-          this._wrapper.appendChild(this._address),
+        (this._modalTxt.innerHTML =
+          "<div class='c-comm'>下記のメールアドレスよりお問い合わせください</div><div class='c-info en'><a href='mailto:info@nishandhungana.com'>info@nishandhungana.com</a></div><span>Nishan Dhuungana<br class='sp-br'> <br>2022 © Nishan Dhungana. Design by Nd Developers<br>"), this._wrapper.appendChild(this._address),
           (this._modal = document.createElement("div")),
           this._modal.classList.add("contact-base"),
           document.body.appendChild(this._modal),
